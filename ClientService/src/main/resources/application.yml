@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: SERVICE-CLIENT
+  datasource:
+    url: jdbc:mysql://localhost:3306/clientservicedb?createDatabaseIfNotExist=true
+    username: root
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update

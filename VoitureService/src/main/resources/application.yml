@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: SERVICE-VOITURE
+  datasource:
+    url: jdbc:mysql://localhost:3306/carservicedb?createDatabaseIfNotExist=true
+    username: root
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
